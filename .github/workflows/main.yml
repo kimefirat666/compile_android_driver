@@ -7,10 +7,10 @@ on:
         description: 'Android Version (Kernel) (e.g., 14)'
         required: true
       kernel_version:
-        description: 'Kernel Version (e.g., 6.1)'
+        description: 'Kernel Version (e.g., 5.15)'
         required: true
       driver_name:
-        description: 'Driver Module Name (e.g., mydriver.ko)'
+        description: 'Driver Module Name (e.g., hwBreakpointProc_module.ko)'
         required: true
       target_arch:
         description: 'Target Architecture (aarch64, x86_64, etc.)'
